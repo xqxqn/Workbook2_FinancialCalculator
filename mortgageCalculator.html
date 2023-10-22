@@ -4,23 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Future Value Calculator</title>
-    <link rel="stylesheet" href="/styles/futureValueCalculators.css" />
+    <title>Mortgage Calculator</title>
+    <link rel="stylesheet" href="/styles/mortgageCalculator.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Geologica&display=swap" rel="stylesheet" type="text/css">
 </head>
 
-<header> 
+<header>
     <a href="index.html" class="logo">Candy Accounting</a>
     <div class="hamburger">
         <div class="line"></div>
-        <div class="line"></a></div>
+        <div class="line"></div>
         <div class="line"></div>
         <nav class="nav-bar">
             <ul>
                 <li>
-                    <a href="mortgageCalculator.html">Mortgage Calculator</a>
+                    <a href="mortgageCalculator.html" class="active">Mortgage Calculator</a>
                 </li>
                 <li>
                     <a href="futureValueCalculator.html">Future Value Calculator</a>
@@ -33,29 +33,29 @@
 </header>
 
 <body>
-    <h1 class="futureValueTitle">Future Value Calculator</h1>
+    <h1 class="MortgageTitle">Mortgage Calculator</h1>
     <section>
-        <form id="futureValueCalculator">
-            <label for="principal">Deposit Amount ($):</label>
+        <form id="mortgageCalculator">
+            <label for="principal">Principal ($):</label>
             <input type="number" id="principal" autofocus><br><br>
 
             <label for="rate">Interest Rate (%):</label>
             <input type="number" id="rate" step="0.0001" min="0"><br><br>
 
-            <label for="years">Number of Years:</label>
+            <label for="years">Loan Length (years):</label>
             <input type="number" id="years" min="1"><br><br>
 
             <button type="submit">Calculate</button>
             <button type="reset">Reset</button>
         </form>
 
-        <section class="result">
-            <p>Future Value: $<span id="futureValue"></span></p>
-            <p>Interest Earned: $<span id="interestEarned"></span></p>
+        <section class="result">Results:
+            <p>Monthly Payment: $<span id="monthlyPayment"></span></p>
+            <p>Total Interest Paid: $<span id="totalInterest"></span></p>
         </section>
     </section>
-    <script src="scripts/futureValueCalculator.js"></script>
-</body>
+    <script src="scripts/mortgageCalculator.js"></script>
 
+</body>
 
 </html>

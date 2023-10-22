@@ -1,6 +1,6 @@
 # Workbook 2 Workshop: Financial Calculators
 
-Welcome to the Candy Accounting Calculators! This web-based application provides financial calculators to help users make informed decisions about their investments and financial planning.
+Welcome to the Candy Accounting Calculators! This web-based application provides financial calculators to help users make informed decisions about their investments and financial planning. (AI used for homepage text)
 
 ## Features
 

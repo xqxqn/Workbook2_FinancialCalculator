@@ -4,15 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mortgage Calculator</title>
-    <link rel="stylesheet" href="/styles/mortgageCalculator.css" />
+    <title>Home Page</title>
+    <link rel="stylesheet" href="/styles/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Geologica&display=swap" rel="stylesheet" type="text/css">
 </head>
 
 <header>
-    <div class="logo">Candy Accounting</div>
+    <a href="index.html" class="logo">Candy Accounting</a>
     <div class="hamburger">
         <div class="line"></div>
         <div class="line"></div>
@@ -20,7 +20,7 @@
         <nav class="nav-bar">
             <ul>
                 <li>
-                    <a href="index.html" class="active">Mortgage Calculator</a>
+                    <a href="mortgageCalculator.html" class="active">Mortgage Calculator</a>
                 </li>
                 <li>
                     <a href="futureValueCalculator.html">Future Value Calculator</a>
@@ -33,29 +33,19 @@
 </header>
 
 <body>
-    <h1 class="MortgageTitle">Mortgage Calculator</h1>
-    <section>
-        <form id="mortgageCalculator">
-            <label for="principal">Principal ($):</label>
-            <input type="number" id="principal" autofocus><br><br>
-
-            <label for="rate">Interest Rate (%):</label>
-            <input type="number" id="rate" step="0.0001" min="0"><br><br>
-
-            <label for="years">Loan Length (years):</label>
-            <input type="number" id="years" min="1"><br><br>
-
-            <button type="submit">Calculate</button>
-            <button type="reset">Reset</button>
-        </form>
-
-        <section class="result">Results:
-            <p>Monthly Payment: $<span id="monthlyPayment"></span></p>
-            <p>Total Interest Paid: $<span id="totalInterest"></span></p>
-        </section>
-    </section>
-    <script src="scripts/mortgageCalculator.js"></script>
-
+    <h2 class="welcomemessage">Welcome to Candy Accounting!</h2>
+    <p class="paragraph1">Welcome to Candy Accounting! Navigating the financial world can sometimes feel as confusing as
+        a maze. Whether you're a business owner, an individual investor, or someone just looking to get a grip on your
+        finances, Candy Accounting is here to make things simpler and sweeter. Our digital tools, including specialized
+        calculators and in-depth resources, are designed to help you demystify complex financial concepts and make
+        informed decisions. With user-friendly interfaces and clear, concise guidance, we aim to take the intimidation
+        out of finance and empower you to take control of your financial future.</p>
+    <h2 class="whychoosemessage">Why Choose Candy Accounting?</h2>
+    <p class="paragraph2">
+        Beyond our state-of-the-art tools, what truly sets Candy Accounting apart is our commitment to clarity and
+        transparency. We understand that every financial journey is unique, and that's why we've ensured our platform is
+        customizable to fit your needs. Whether you're planning for a big purchase, trying to understand the intricacies
+        of mortgages, or forecasting your future financial growth, our platform offers tailored insights just for you.
+        Partner with Candy Accounting today, and let's make your financial aspirations a reality.
+    </p>
 </body>
-
-</html>
