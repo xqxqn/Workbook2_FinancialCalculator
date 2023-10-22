@@ -1,0 +1,134 @@
+
+* {
+    margin: 0%;
+    padding:0%;
+    list-style: none;
+    text-decoration:none;
+    font-family: "Geologica";
+    box-sizing:border-box;
+}
+
+header {
+    width: 100%;
+    height: 80%;
+    background: #11101b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:30px 100px ;
+}
+
+body{
+    background-color: #fefefe;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #fefefe; 
+
+}
+
+
+.nav-bar ul {
+    display: flex;
+}
+
+.nav-bar ul li a {
+    display: block;
+    color: #fefefe;
+    font-size: 20px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    transition: 0.2s;
+    margin: 0 5px;
+}
+
+.nav-bar ul li a:hover {
+    color: #11101b;
+    background: #fefefe;
+}
+
+@media (max-width: 1320px) {
+    header {
+        padding: 0 50px;
+    }
+}
+
+@media (max-width: 1100px) {
+    header {
+        padding: 0 30px;
+    }
+}
+
+@media (max-width: 900px) {
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+    .hamburger .line {
+        width: 30px;
+        height: 3px;
+        background-color: #fefefe;
+        margin: 6px 0;
+    }
+    .nav-bar {
+        height: 450px;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        background: #11101b;
+        transition: 0.2s;
+        overflow: hidden;
+        color: #fefefe;
+    }
+    .nav-bar ul {
+        display: block;
+        width: fit-content;
+        margin: 80px auto 0 auto;
+        text-align: center;
+        transition: 0.5s;
+    }
+    .nav-bar ul li a {
+        margin-bottom: 12px;
+    }
+}
+
+.annuityTitle {
+    display: block;
+    text-align: center;
+    margin-top: 10%;
+    font-size: 70px;
+}
+
+label, input [type="number"] {
+    font-size: 25px;
+}
+
+input [type="number"] {
+    height: 24px;
+    vertical-align: middle;
+    padding: 2px 8px;
+    border: 1px solid black;
+    width: 175px;
+    margin-bottom: 7.5px;
+}
+
+h1, form {
+    text-align: center;
+    margin-top: 10px;
+}
+
+button {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.result {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+}
+

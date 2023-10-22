@@ -15,7 +15,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding:0 100px ;
+    padding:30px 100px ;
 }
 
 body{
@@ -95,3 +95,41 @@ body{
         margin-bottom: 12px;
     }
 }
+
+.MortgageTitle {
+    display: block;
+    text-align: center;
+    margin-top: 10%;
+    font-size: 70px;
+}
+
+#mortgageCalculator {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+}
+
+label, input [type="number"] {
+    font-size: 25px;
+}
+
+input [type="number"] {
+    height: 24px;
+    vertical-align: middle;
+    padding: 2px 8px;
+    border: 1px solid black;
+    width: 175px;
+    margin-bottom: 7.5px;
+}
+
+button {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.result {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
